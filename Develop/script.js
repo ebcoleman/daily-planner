@@ -1,8 +1,7 @@
-
-
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
+
 $(function () {
 
   // when the save button is clicked for each specific time block; that information is saved into the local storage to be recalled later
@@ -17,7 +16,6 @@ $(function () {
     console.log('Stored in Local Storage:', localStorage.getItem(timeBlockId));
   });
   
-
   // calls the current hour using day.js
   var currentHour = dayjs().hour();
 
@@ -33,7 +31,7 @@ $(function () {
     } else {
       timeblock.classList.add('future');
     }
-  })
+  });
   
   
 // recalls the information that was saved into the local storage for each timeblock
@@ -46,13 +44,9 @@ $(function () {
     }
   });
   
-  // TODO: Add code to display the current date in the header of the page.
-
     // calls the current day using day.js in the format I selected below
     var currentDay =dayjs().format('dddd, MMMM D, YYYY');
     // updates the content in the HTML 'current-day'
     document.getElementById('current-day').textContent = currentDay;
   
-
-
 });
