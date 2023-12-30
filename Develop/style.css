@@ -12,6 +12,10 @@ textarea {
   padding: 10px;
 }
 
+#current-day {
+  background-color: rgb(241, 241, 162);
+}
+
 .description {
   white-space: pre-wrap;
 }
@@ -32,17 +36,17 @@ textarea {
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #cd6464;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color:rgb(241, 241, 162);
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #7fd37f;
   color: white;
 }
 
