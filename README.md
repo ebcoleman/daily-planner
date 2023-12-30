@@ -7,7 +7,6 @@ This project was to create a calendar application using starter code. It is a to
 ## Usage
 
 Screenshot:
-
 ![Alt text](Develop/images/screenshot-daily-planner.png)
 
 <!-- link -->
