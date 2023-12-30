@@ -7,10 +7,10 @@ This project was to create a calendar application using starter code. It is a to
 ## Usage
 
 Screenshot:
-![Alt text](Develop/images/screenshot-daily-planner.png)
+![Alt text](Asset/images/screenshot-daily-planner.png)
 
-<!-- link -->
-
+Link:
+https://ebcoleman.github.io/daily-planner/
 
 ## Credits
 
